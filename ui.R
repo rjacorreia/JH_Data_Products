@@ -16,6 +16,7 @@ shinyUI(pageWithSidebar(
     # Show a summary of the dataset and an HTML table with the requested
     # number of observations
     mainPanel(
+        h3('The final result is'),
         verbatimTextOutput("summary")
     )
 ))
